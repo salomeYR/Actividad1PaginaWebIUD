@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="formp1">
+            <h1>Datos personales</h1>
+            <form action="#" method="post">
+                <label for="nombre-completo">Nombre completo:</label><br><br>
+                <input type="text" id="nombre-completo" name="nombre-completo" required><br><br>
+
+                <label for="cedula">Cedula:</label><br><br>
+                <input type="number" id="cedula" name="cedula" required><br><br>
+
+                <label for="email">Correo electronico:</label><br><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="telefono">Telefono:</label><br><br>
+                <input type="number" id="telefono" name="telefono" required><br><br>
+            </form><br>
+        </div>
+        <dic class="formt2">
+            <h1>Tipo de credito</h1>
+            <form action="#" method="post">
+                <label for="tipo-credito">Tipo de credito:</label><br><br>
+                <select id="tipo-credito" name="tipo-credito"><br><br>
+                    <option value="">--selecciona una opcion--</option>
+                    <option value="creditoacademico">credito academico</option>
+                    <option value="creditoempresa">credito empresa</option>
+                    <option value="creditolibreinversion">credito libre inversion</option>
+                    <option value="creditovehiculo">credito vehiculo</option>
+                    <option value="credtiocasa">credito casa</option>
+                </select>
+                
+                <label for="monto">Mondo:</label><br><br>
+                <input type="number" id="monto" name="monto" required><br><br>
+
+                <label for="plazo">Plazo en meses:</label><br><br>
+                <input type="number" id="plazo" name="plazo" required><br><br>
+
+                <label for="destino">Destino del credito:</label><br><br>
+                <input type="text" id="destino" name="destino" required><br><br>
+            </form><br>
+        </dic>
+        <div class="formdl3">
+            <h1>Datos laborales</h1>
+            <form action="#" method="post">
+                <label for="empresa">Empresa donde labora:</label><br><br>
+                <input type="text" id="empresa" name="empresa" required><br><br>
+
+                <label for="cargo">Cargo:</label><br><br>
+                <input type="text" id="cargo" name="cargo" required><br><br>
+
+                <label for="ingresos">Ingresos mensuales:</label><br><br>
+                <input type="number" id="ingresos" name="ingresos" required><br><br>
+            </form>
+        </div>
+    <a href="index.html" class="boton enviar">Enviar</a>
+    <a href="index.html" class="boton cancelar">cancelar</a>
+            </div>
+</html>

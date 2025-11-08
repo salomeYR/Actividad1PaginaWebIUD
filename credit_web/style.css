@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Momo+Signature&display=swap');
+/* 
+font: 'Arvo' estetico
+font: 'Momo Signature'  estetico cusiva
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Arvo';
+    background: color #fefff9; ;
+
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #030301;
+    display: block;
+    font-weight: 600;
+}
+.menu .navbar ul li a:hover{
+    color: #e2b147;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+/*simualdor de busquedad*/
+.simu-container{
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 6px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 1500px;
+}
+.simu-container{
+    font-family: 'Arvo';
+}
+
+
+/*formulario*/
+.form-container{
+    background: white;
+    padding: 50px;
+    border-radius: 60px;
+    box-shadow: 0 6px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 1500px;
+}
+.form-container{
+    flex:0;
+    background-color: #f9f9f9;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0,0,0.05);
+}
+.form-container h1{
+    font-size: 1.5em;
+    color:#333;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+    font-family: 'Arvo';
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+}
+.form1{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px ;
+}
+.boton, button {
+    display: inline-block;
+    margin-top: 15px;
+    background-color:#fcbe36;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.formp1{
+    background-color: #e0e0dd;
+    padding: 1.5rem;
+}
+.formdl3{
+    background-color:#e0e0dd ;
+}
+
+/*--------------*/
+.header-txt h1{
+    font-family:'Momo Signature', cursive ;
+    color: #030301;
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 35px;
+}
+.header-txt p{
+    font-size: 16px;
+    color: #5b5b5a;
+    margin-bottom: 35px;
+}
+.btn-1 {
+    display: inline-block;
+    padding: 13px 25px;
+    background-color: #fcbe36;
+    color: #030301;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+/*para cambiar la tonalidad manuel del boton*/
+.btn-1:hover{
+    background-color: #e2b147;
+}
+.header-content{
+    display: flex;
+}
+.header-txt{
+    width: 50%;
+}
+.header-img{
+    width: 50%;
+    text-align: right;
+}
+.header-img{
+    width: 500px;
+}
+.ofert{
+    /*background-image: url();*/
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+.ofert h2{
+    font-size: 50px;
+    color: #030301;
+    font-family: cursive;
+    margin: 80px 0 40px 0;
+}
+.ofert-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+.ofert-1 img{
+    width: 250px;
+}
+.ofert-1 h3{
+    font-family: 'Momo Signature', cursive;
+    color: #030301;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.ofert-1 p{
+    font-size: 16px;
+    color:#31312d;
+}
+.menu-creditos{
+    padding: 50px 0;
+    text-align: center;
+}
+.menu-creditos h2{
+    font-size: 50px;
+    color: #030301;
+    font-family: 'Momo Signature', cursive;
+    margin-bottom: 50px;
+}
+.creditos-content{
+    /*para hacer que los productos o lo que sea se muestren horizontalmente*/
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 35px;
+}
+.credito1{
+    border: 2px solid #acacac ;
+    border-radius: 10%;
+}
+.credito2{
+    border: 2px solid #acacac ;
+    border-radius: 10%;
+}
+.credito3{
+    border: 2px solid #acacac ;
+    border-radius: 10%;
+}
+.credito4{
+    border: 2px solid #acacac ;
+    border-radius: 10%;
+}
+.credito5{
+    border: 2px solid #acacac ;
+    border-radius: 10%;
+}
+.credito1 img{
+    width: 250px;
+}
+.credito1 h3{
+    font-size: 16px;
+    color:#030301;
+    margin-bottom: 15px;
+}
+.credito1 p{
+    font-size: 16px;
+    color: #030301;
+    margin-bottom: 25px;
+}
+.geo{
+    padding: 100px 0;
+    display: flex;
+}
+.geo-1, .geo-2{
+    width: 50%;
+}
+.geo-1 h2{
+    font-size: 50px;
+    color: #030301;
+    font-family: 'Momo Signature', cursive;
+    margin-bottom: 30px;
+}
+.geo-1 p{
+    font-size: 16px;
+    color: #31312d;
+    margin-bottom: 15px;
+}
+.map{
+    width: 600px;
+    height: 450px;
+}
+.footer{
+    padding: 50px 0;
+    background-color: #31312d;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.link h3{
+    color:#fefff9;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.link a{
+    color: #fefff9;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 10px;
+}
+.link a:hover{
+    color: #fcbe36;
+}
+@media(max-width:991px){
+    .menu{
+        padding: 30px;
+    }
+    .menu label{
+        display:initial;
+    }
+    .menu .navbar{
+        position: obsolute;
+        top: 100%;
+        left:0;
+        right:0;
+        background-color: #5b5b5a;
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    .menu .navbar ul li a{
+        color:#fefff9;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .header{
+        min-height: 0vh;
+    }
+    .header-content{
+        flex-direction:column;
+        padding: 100px 30px 30px 30px;
+        text-align: center;
+    }
+    .header-txt{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .header-txt h1{
+        font-size: 60px;
+        line-height: 70px;
+        margin-bottom: 25px;
+    }
+    .header-img{
+        width:100%;
+    }
+    .header-img img{
+        width:100%;
+    }
+    .ofert{
+        padding: 30px;
+        background-color: #f4f5ef;
+    }
+    .ofert h2{
+        margin: 0;
+    }
+    .ofert-content{
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .ofert-1{
+        padding: 0 25px;
+        margin-bottom: 25px;
+    }
+    .menu-creditos{
+        padding: 30px;
+    }
+    .menu-creditos h2{
+        margin-bottom: 10px;
+    }
+    .credito-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .geo{
+        padding: 0 30px 30px 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .geo-1, .geo-2{
+        width: 100%;
+    }
+    .map{
+        width: 300px;
+        height: 350px;
+    }
+    .footer{
+        padding: 30px;
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
